@@ -16,7 +16,24 @@ class MainActivity : AppCompatActivity() {
         val clearBtn=findViewById<Button>(R.id.button)
         var searchBtn=findViewById<Button>(R.id.button2)
         val resultTv=findViewById<TextView>(R.id.textView)
-        val peopleArray= arrayListOf<History>(History("keke",25))
+        val peopleArray= arrayListOf<History>(
+
+            History("Winnie Mandela",81),
+            History("Antjie Krog",72),
+            History("Desmond Doss",87),
+            History("John Glenn",95),
+            History("Daniel Francois",84),
+            History("Mother Teresa",87),
+            History("P.W.Botha",90),
+            History("Stephan Hawking",76),
+            History("Coco Chanel",87),
+            History("Abraham Lincoln",56),
+            History("Desmond Tutu",90),
+
+
+
+
+        )
 
         searchBtn.setOnClickListener {
 
